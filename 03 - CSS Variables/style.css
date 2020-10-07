@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+
+/* on definit des variables --base --spacing et --blur avec des valeurs par defaut*/
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --flou: 0px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter:blur(var(--flou));
+}
+
+.hl {
+  color: var(--base);
+}
