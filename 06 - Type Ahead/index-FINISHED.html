@@ -35,6 +35,7 @@ function numberWithCommas(x) {
 }
 
 function displayMatches() {
+  console.log(this)
   const matchArray = findMatches(this.value, cities);
   const html = matchArray.map(place => {
     const regex = new RegExp(this.value, 'gi');
