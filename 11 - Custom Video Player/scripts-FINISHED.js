@@ -24,6 +24,7 @@ function skip() {
 }
 
 function handleRangeUpdate() {
+  console.log(this);
   video[this.name] = this.value;
 }
 
